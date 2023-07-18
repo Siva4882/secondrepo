@@ -14,7 +14,7 @@ resource "aws_default_vpc" "default_vpc" {
 }
 
 
-# use data source to get all avalablility zones in region
+# use data source to get all availability zones in region
 data "aws_availability_zones" "available_zones" {}
 
 
